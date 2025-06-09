@@ -50,4 +50,8 @@ Future enhancements to the game could include:
 2. Power-Ups: Introducing power-ups, such as speed boosts or invincibility, would add an extra layer of excitement to the game.
 3. Customization Options: Providing customization options, such as different snake skins or backgrounds, would allow players to personalize their gaming experience.
 
+   *OUTPUT*
+
+   ![Image](https://github.com/user-attachments/assets/2e173ecb-4fb1-4317-b9c7-a5b7487047ba)
+
    
