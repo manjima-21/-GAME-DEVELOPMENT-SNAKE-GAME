@@ -118,7 +118,7 @@ int main() {
 
         window.clear(Color::Black);
 
-        // Draw grid lines
+        
         RectangleShape line(Vector2f(WIDTH, 1));
         line.setFillColor(Color(50, 50, 50));
         for (int i = 0; i <= HEIGHT; i += SIZE) {
@@ -131,13 +131,13 @@ int main() {
             window.draw(line);
         }
 
-        // Draw food
+        
         RectangleShape foodRect(Vector2f(SIZE - 2, SIZE - 2));
         foodRect.setFillColor(foodColor);
         foodRect.setPosition(food.x * SIZE, food.y * SIZE);
         window.draw(foodRect);
 
-        // Draw snake
+        
         RectangleShape snakeRect(Vector2f(SIZE - 2, SIZE - 2));
         snakeRect.setFillColor(Color::Green);
         for (auto& part : snake) {
@@ -145,7 +145,7 @@ int main() {
             window.draw(snakeRect);
         }
 
-        // Draw score
+        
         Text scoreText("Score: " + std::to_string(score), font, 20);
         scoreText.setFillColor(Color::White);
         scoreText.setPosition(5, 5);
