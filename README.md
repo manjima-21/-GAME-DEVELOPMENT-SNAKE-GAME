@@ -52,6 +52,6 @@ Future enhancements to the game could include:
 
    *OUTPUT*
 
-   ![Image](https://github.com/user-attachments/assets/2e173ecb-4fb1-4317-b9c7-a5b7487047ba)
+  ![Image](https://github.com/user-attachments/assets/8896c371-8b7a-42da-bc1f-396244daa624)
 
    
